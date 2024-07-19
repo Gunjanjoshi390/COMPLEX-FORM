@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>COMPLEX FORM</h1>
+    <form >
+<fieldset>
+<legend>personal information</legend>
+<label for="name">Name</label>
+<input type="text" name="name" id="name" placeholder="Enter your name" >
+<label for ="emailID" >Email ID</label>
+<input type="text" id="emailID" name="emailID" placeholder="enter your name">
+
+<label for="phoneNumber">PhoneNumber</label>
+<input type="text" name="phoneNumber" id="phoneNumber" placeholder="enter phoneNumber">
+<label for="dateofbrith" >Date Of Birth</label>
+<input type="date" name="dateofbrith" id="dateofbrith" >
+<label for="gender">Gender</label>
+<input type="radio" name="gender" id="gender" value="male"><label for="male">Male</label>
+<input type="radio" value="female"><label for="female">Female</label>
+<input type="radio" value="other"><label for="Other">Other</label>
+<label for="country">Country</label>
+<select name="country" id="country">
+    <option value="india">India</option>
+    <option value="usa">USA</option>
+    <option value="uk">UK</option>
+    <option value="korea">KOREA</option>
+</select>
+
+</fieldset>
+<fieldset>
+    <legend>Address</legend>
+    <label for="street">street</label>
+    <input type="text" name="street" id="street" placeholder="enter your street name">
+    <label for="city">City</label>
+    <input type="text" name="city" id="city" placeholder="enter your city name">
+    <label for="state">State</label>
+    <input type="text" name="state" id="state" placeholder="enter your state name">
+    <label for="pincode">Pincode</label>
+    <input type="text" name="pincode" id="pincode" placeholder="enter your pincode">
+</fieldset>
+
+<fieldset>
+    <legend> Other Information</legend>
+    <label for="textarea">comment</label>
+    <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+    <label for="terms">agree to the terms of service</label>
+<input type="checkbox" name="terms" id="terms" >
+
+</fieldset>
+<br>
+<br>
+<button>submit</button>
+
+    </form>
+</body>
+</html>
